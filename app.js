@@ -13,8 +13,8 @@ const { KEY, serverJ, DualKey, PUSH_METHOD, PUSH_KEY, PUSH_SECRET, PUSH_ADDRESS 
 
 // 下载文件
 async function downFile () {
-    // const url = 'https://cdn.jsdelivr.net/gh/NobyDa/Script@master/JD-DailyBonus/JD_DailyBonus.js'
-    const url = 'https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js';
+     const url = 'https://cdn.jsdelivr.net/gh/NobyDa/Script@master/JD-DailyBonus/JD_DailyBonus.js'
+    //const url = 'https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js';
     await download(url, './');
 }
 
